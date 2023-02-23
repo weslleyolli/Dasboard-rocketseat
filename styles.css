@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+root {
+    --bg-body: #000
+}
+
+body {
+    background-color: #292738;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 1120px;
+    height: 500px;
+    border: 1px solid red;
+}
+
