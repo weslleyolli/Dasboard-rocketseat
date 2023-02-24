@@ -18,6 +18,7 @@ body {
     align-items: center;
     font-family: 'Inter', sans-serif;
     color: var(--white);
+    position: relative;
 }
 
 main {
@@ -26,6 +27,8 @@ main {
     display: flex;
     flex-direction: column;
     gap: 50px;
+    position: absolute;
+    bottom: 0;
 }
 
 h1 {
@@ -69,6 +72,10 @@ span {
     align-items: center;
     justify-content: space-between;
 
+}
+
+.first-container .text-green {
+    color: #81FBB8;
 }
 
 .wrapper {
@@ -183,9 +190,12 @@ span {
     box-shadow: 0 0 8px #1E1E1E;
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
     gap: 32px;
+    position: relative;
+    z-index: -2;
 }
+
+
 
 .box4-itens-left{
     display: flex;
@@ -209,3 +219,17 @@ span {
     align-items: flex-end;
 }
 
+.line {
+    height: 3px;
+    width: 489px;
+    background-color: #4A4556;
+    z-index: -1;
+    position: absolute;
+    top: 155px;
+}
+
+.box-percent-day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
