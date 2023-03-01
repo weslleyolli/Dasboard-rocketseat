@@ -28,7 +28,6 @@ main {
     flex-direction: column;
     gap: 50px;
     position: absolute;
-    bottom: 0;
 }
 
 h1 {
